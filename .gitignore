@@ -1,0 +1,5 @@
+.env
+*.csv
+*.zip
+*.pkl
+image_classifier/

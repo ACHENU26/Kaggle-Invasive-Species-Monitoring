@@ -2,9 +2,9 @@
 ## Identify images of invasive hydrangea
 ### Kaggle Competition 
 
-**Athors :** Cédric FLAMANT & Axel CHENU 
-**Creation date :** 08/01/2020
-**Update date :** 14/01/2021
+- **Athors :** Cédric FLAMANT & Axel CHENU 
+- **Creation date :** 08/01/2020
+- **Update date :** 15/01/2021
 
 
 ## Data Description 
