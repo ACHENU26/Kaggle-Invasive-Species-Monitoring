@@ -21,37 +21,33 @@ This data is taken from kaggle, the `data` folder contains original data from ka
 
 Kaggle : https://www.kaggle.com/c/invasive-species-monitoring/overview
 
+## INTEGRATIONS 
+- Amazon S3
+- Google cloud storage
+- Kaggle API
+
 ## PROJECT DEVELOPMENT
-### Model builder
+### Model builder : notebooks
 
-* [`model_builder/`](model_builder/) contains scripts for building the scikit-learn model used by the app:
-
-* [`02.Split_data.ipynb`](model_builder/02.Split_data.ipynb)
-* [`03.Featurize_data.ipynb`](model_builder/03.Featurize_data.ipynb) (which reuses [`featurizer.py`](src/featurizer.py) from the `src/` directory)
-* [`04.Train-model.ipynb`](model_builder/04.Train-model.ipynb)
-* [`05.Prediction.ipynb`](model_builder/05.Prediction.ipynb)
+* [`notebooks/`](notebooks/) contains scripts for building the scikit-learn model used by the app:
+* [`000.Get_data.ipynb`](notebooks/000.Get_data.ipynb)
+* [`001.Load-train-data.ipynb`](notebooks/001.Load-train-data.ipynb)
+* [`002.Train-model.ipynb`](notebooks/002.Train-modelipynb)
 
 ### Notebooks 
-01. GET DATA
+000. GET DATA
 The `data` folder contains original data from kaggle
-Direct connection by using Kaggle CLI
 
-02. SPLIT DATA
-Separation of data into training data and validation data (75/25)
+001. LOAD DATA
 
-03. FEATURIZE
-Removal of categorical fields: url and boilerplate columns
-
-04. TRAIN MODEL 
-* 
-* 
+002. TRAIN MODEL
 
 Model storage: `model.pkl`
 
 05. PREDICTION 
 * Prediction using the save model
 * Save the submission: `data / submission.csv`
-* By Kaggle CLI we submit our results
+
 
 ## SCORES 
 FIRST TEST on 14/01/2021
